@@ -148,4 +148,5 @@ curl http://localhost:3000
 
 ### Grafana Dashboard
 사진에 나타난 것 외에도 더 많은 리소스 매트릭스를 관리할 수 있다.
-![grafana](images\grafana_dashboard.bmp)
+
+<p align='center'> <img src=".images\grafana_dashboard.bmp" width="90%" height="90%"/> </p>
