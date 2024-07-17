@@ -112,7 +112,7 @@ for i in list(range(0, 4)):
     subplot.plot(perf_df.iloc[:,i])
     subplot.set_title(perf_df.iloc[:,i].name)
 ```
-<p align='center'> <img src="./images//perf_analyzer_result.bmp" width="70%" height="70%"/> </p>
+<p align='center'> <img src="./images//perf_analyzer_result.jpg" width="70%" height="70%"/> </p>
 
 ## 7. Triton Server 모니터링
 Prometheus와 Grafana 도커 컨테이너를 이용해 Triton server가 내보내는 매트릭스를 연결해 실시간으로 모니터링이 가능하다. 
@@ -144,9 +144,9 @@ curl http://localhost:3000
  ```
  Grafana에 Prometheus를 연결하여 모니터링 지표를 연동한다.
 
-<p align='center'> <img src="./images/prometheus_connection.bmp" width="70%" height="70%"/> </p>
+<p align='center'> <img src="./images/prometheus_connection.jpg" width="70%" height="70%"/> </p>
 
 ### Grafana Dashboard
 사진에 나타난 것 외에도 더 많은 리소스 매트릭스를 관리할 수 있다.
 
-<p align='center'> <img src=".images\grafana_dashboard.bmp" width="90%" height="90%"/> </p>
+<p align='center'> <img src="./images\grafana_dashboard.jpg" width="90%" height="90%"/> </p>
